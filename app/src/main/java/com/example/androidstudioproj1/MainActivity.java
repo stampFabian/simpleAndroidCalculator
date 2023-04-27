@@ -7,10 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText input;
+    TextView input;
     private double num1 = 0;
     private double num2 = 0;
     private String operator = "";
@@ -23,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void logic(View view) {
-
         input = findViewById(R.id.input);
         btn_numb0 = findViewById(R.id.btn_numb0);
         btn_numb1 = findViewById(R.id.btn_numb1);
