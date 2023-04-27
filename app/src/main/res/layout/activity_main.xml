@@ -22,22 +22,22 @@
         app:layout_constraintVertical_bias="0.042" />
 
     <Button
-        android:id="@+id/btn_reset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="180dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_numb9"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="logic"/>
-
-    <Button
         android:id="@+id/btn_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="275dp"
         android:layout_marginBottom="4dp"
         android:text="back"
+        app:layout_constraintBottom_toTopOf="@+id/btn_plus"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginBottom="4dp"
+        android:text="reset"
         app:layout_constraintBottom_toTopOf="@+id/btn_plus"
         app:layout_constraintStart_toStartOf="parent" />
 
