@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void logic(View view) {
+
+        input.setText("");
+
         btn_numb0 = findViewById(R.id.btn_numb0);
         btn_numb1 = findViewById(R.id.btn_numb1);
         btn_numb2 = findViewById(R.id.btn_numb2);
