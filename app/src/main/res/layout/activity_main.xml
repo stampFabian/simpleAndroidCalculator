@@ -70,6 +70,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginBottom="10dp"
         android:text="="
+        android:onClick="logic"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_numb0" />
